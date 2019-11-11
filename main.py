@@ -8,8 +8,8 @@ from xor.archivos import *
 inputs = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 expected_output = np.array([[0], [1], [1], [0]])
 
-epochs = int(10**4)
-lr = 0.1
+epochs = int(10**5)
+lr = 0.2
 inputLayerNeurons, hiddenLayerNeurons, outputLayerNeurons = 2, 2, 1
 
 # Random weights and bias initialization or if exists load the npy files
